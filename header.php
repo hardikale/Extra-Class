@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <link href="./src/output.css" rel="stylesheet">
+    </head>
 <body>
     <nav class="flex items-center justify-between px-20 py-4 shadow-md">
         <h2 class="font-bold text-2xl">LOGO</h2>

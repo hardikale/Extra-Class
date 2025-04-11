@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <link href="../src/output.css" rel="stylesheet">
+    </head>
 <body>
     <div class="flex">
         <div class="w-52 h-screen bg-gray-100 shadow-md flex flex-col items-center py-4">
