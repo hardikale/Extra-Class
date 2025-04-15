@@ -1,6 +1,6 @@
 
 <footer class="mt-10">
-        <div class="px-20 grid grid-cols-3 gap-4 bg-blue-600 text-white py-10">
+        <div class="px-20 grid grid-cols-3 gap-4 bg-slate-900 text-white py-10">
             <div>
                 <h2 class="font-bold text-lg">About Us</h2>
                 <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
