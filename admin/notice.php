@@ -22,7 +22,7 @@ include 'closeconnection.php';
                 <th class="p-2 border"><?php echo $row['id'] ?></th>
                 <th class="p-2 border"><?php echo $row['notice'] ?></th>
                 <th class="p-2 border">
-                    <a class="bg-stone-700 text-white px-4 py-1.5 rounded-lg">Edit</a>
+                    <a href="editnotice.php?id=<?php echo $row['id'] ?>" class="bg-stone-700 text-white px-4 py-1.5 rounded-lg">Edit</a>
                     <a class="bg-red-600 text-white px-4 py-1.5 rounded-lg">Delete</a>
                 </th>
             </tr>
