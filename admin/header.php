@@ -13,7 +13,7 @@
             <div class="mt-4 grid text-lg">
                 <a href="dashboard.php" class="px-4 py-2 border-b hover:bg-gray-200">Dashboard</a>
                 <a href="notice.php" class="px-4 py-2 border-b hover:bg-gray-200">Notices</a>
-                <a href="" class="px-4 py-2 border-b hover:bg-gray-200">Category</a>
+                <a href="categories.php" class="px-4 py-2 border-b hover:bg-gray-200">Category</a>
                 <a href="" class="px-4 py-2 border-b hover:bg-gray-200">News</a>
                 <a href="" class="px-4 py-2 border-b hover:bg-gray-200">Logout</a>
             </div>

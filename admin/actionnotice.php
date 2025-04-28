@@ -31,3 +31,19 @@ if(isset($_POST['update']))
 
     include 'closeconnection.php';
 }
+
+if(isset($_GET['deleteid']))
+{
+    $id = $_GET['deleteid'];
+    $qry = "DELETE FROM notices WHERE id=$id";
+    include 'dbconnection.php';
+    $result = mysqli_query($conn, $qry);
+    if ($result) {
+        echo "<script>alert('notice deleted successfully');</script>";
+        echo "<script>window.location.href='notice.php';</script>";
+    } else {
+        echo "Failed to delete Notcie.";
+    }
+
+    include 'closeconnection.php';
+}
